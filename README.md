@@ -126,5 +126,13 @@ Once you have a grasp of the concepts, start tackling common system design inter
 		├── README.md                    # Main repo overview, links to concepts & problems
 		└── .gitignore
 
+#### Workflow:
 
+		1. Learn a Concept: Read articles, watch videos.
+		2. Document It: Create a Markdown file in concepts/, write down your understanding, and draw diagrams.
+		3. Commit: git add concepts/caching.md, git commit -m "Documented caching concepts", git push.
+		4. Tackle a Problem: Pick a problem.
+		5. Design It: Follow the structured problem-solving approach. Create a new folder in problems/, and document your solution in its README.md.
+		6. Diagram It: Use your chosen tool to create diagrams and save them in the problem's diagrams/ subfolder. Embed them in your Markdown (![HLD](diagrams/hld.png)).
+		7. Commit: git add problems/design-tinyurl, git commit -m "Solved Design TinyURL problem", git push.
 
