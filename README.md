@@ -33,3 +33,19 @@ Microservices vs. Monoliths: Trade-offs, communication patterns.
 Distributed Systems Challenges: Consistency models (CAP Theorem), Consensus (Paxos, Raft), Distributed Transactions.
 Containerization & Orchestration: Docker, Kubernetes.
 Monitoring & Alerting: Logging, Metrics.
+
+
+
+##### Document Concepts in Your Repo:
+
+1. Create a concepts/ directory.
+2. For each concept, create a Markdown file: concepts/caching.md, concepts/load-balancing.md, etc.
+3. In each file:
+
+		1. Define the concept.
+		2. Explain its purpose and benefits.
+		3. Describe different types/strategies.
+		4. Discuss pros and cons/trade-offs.
+		5. Include diagrams (exported from Excalidraw/draw.io or generated with Mermaid) illustrating the concept.
+		6. Link to external resources (articles, videos) where you learned about it.
+
