@@ -100,3 +100,31 @@ Once you have a grasp of the concepts, start tackling common system design inter
 		How would you scale it further?
 		Document in README.md: "Future Considerations" section.
 
+
+#### Project Structure:
+
+		ankit-system-design/
+		├── concepts/
+		│   ├── databases/
+		│   │   ├── relational-vs-nosql.md
+		│   │   └── consistency-models.md
+		│   ├── caching.md
+		│   ├── load-balancing.md
+		│   ├── message-queues.md
+		│   └── ... (other concepts)
+		├── problems/
+		│   ├── design-tinyurl/
+		│   │   ├── README.md            # Contains the full design solution
+		│   │   └── diagrams/            # Store image files for diagrams
+		│   │       ├── hld.png
+		│   │       └── lld_db_schema.svg
+		│   ├── design-twitter/
+		│   │   ├── README.md
+		│   │   └── diagrams/
+		│   │       ├── ...
+		│   └── ... (other problems)
+		├── README.md                    # Main repo overview, links to concepts & problems
+		└── .gitignore
+
+
+
